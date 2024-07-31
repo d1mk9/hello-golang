@@ -4,7 +4,6 @@ import "testing"
 
 func TestHello(t *testing.T) {
 	want := "Hello Go"
-
 	got := hello()
 
 	if want != got {
